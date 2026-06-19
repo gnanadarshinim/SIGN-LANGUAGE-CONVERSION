@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# AI-Powered Speech-to-Sign Language Avatar System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+The AI-Powered Speech-to-Sign Language Avatar System is designed to improve communication accessibility for hearing-impaired individuals by converting spoken language into sign language animations in real time.
 
-In the project directory, you can run:
+The system combines Speech Recognition, Natural Language Processing (NLP), Machine Learning, and Sign Language Animation to translate speech into meaningful sign language representations. :contentReference[oaicite:0]{index=0}
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Real-time Speech-to-Sign Translation
+- Speech Recognition using Google Speech-to-Text
+- Natural Language Processing (NLP)
+- Machine Learning Based Label Prediction
+- Text-to-Sign Language Conversion
+- Dynamic Video Generation
+- User Authentication System
+- Responsive Web Interface
+- Accessible Communication Platform
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Problem Statement
 
-### `npm run build`
+Communication barriers between hearing and hearing-impaired individuals make real-time interaction challenging. Existing solutions often rely on interpreters or simple text conversion tools and lack accessibility and context awareness.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project provides an automated solution that converts spoken language into sign language representations for inclusive communication. :contentReference[oaicite:1]{index=1}
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## System Architecture
 
-### `npm run eject`
+1. Speech Input
+2. Speech Recognition
+3. Text Processing
+4. NLP Analysis
+5. Sign Language Translation
+6. Gesture Prediction
+7. Avatar/Video Generation
+8. User Output
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Programming Language
+- Python
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Frameworks
+- Flask
 
-## Learn More
+### Machine Learning
+- Scikit-Learn
+- Joblib
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### NLP
+- NLTK
+- spaCy
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Speech Recognition
+- Google Speech-to-Text API
+- SpeechRecognition Library
 
-### Code Splitting
+### Video Processing
+- MoviePy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Database
+- SQLite
 
-### Analyzing the Bundle Size
+### Frontend
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Version Control
+- Git & GitHub
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Project Structure
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```text
+project/
+│
+├── app.py
+├── trained_model.pkl
+├── vectorizer.pkl
+├── dataset.csv
+├── users.db
+├── templates/
+├── static/
+├── video/
+└── speech_recognition.log
